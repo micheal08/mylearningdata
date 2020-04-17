@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T12:24:35.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36" etag="cEYhwL4oJxsnz1MW2Bc2" version="12.9.10" type="github">
-  <diagram id="_le0lB8lklZVR6vzBHbD" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-04-17T16:13:59.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7376miHdYnsjg8mf6G9E" version="12.9.13" type="github" pages="2">
+  <diagram id="_le0lB8lklZVR6vzBHbD" name="Docker_Flow">
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="86PaRyYs46iyCv6pRzgd-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;strokeWidth=2;" edge="1" parent="1" source="i44b39BUdMLtEUs7VdTV-1" target="i44b39BUdMLtEUs7VdTV-3">
+        <mxCell id="86PaRyYs46iyCv6pRzgd-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;strokeWidth=2;" parent="1" source="i44b39BUdMLtEUs7VdTV-1" target="i44b39BUdMLtEUs7VdTV-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i44b39BUdMLtEUs7VdTV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
@@ -13,7 +13,7 @@
         <mxCell id="i44b39BUdMLtEUs7VdTV-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="190" y="360" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="86PaRyYs46iyCv6pRzgd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;strokeWidth=2;" edge="1" parent="1" source="i44b39BUdMLtEUs7VdTV-3">
+        <mxCell id="86PaRyYs46iyCv6pRzgd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;strokeWidth=2;" parent="1" source="i44b39BUdMLtEUs7VdTV-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="360" as="targetPoint" />
           </mxGeometry>
@@ -38,6 +38,35 @@
         </mxCell>
         <mxCell id="i44b39BUdMLtEUs7VdTV-9" value="Specify a command to run on container startup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontStyle=0;fontSize=17;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="205" y="380" width="210" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="t4uxJWqt9roKmLD98vfO" name="Docker Compose command">
+    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="G6hYTnezbfF7C8IR-cRF-0" />
+        <mxCell id="G6hYTnezbfF7C8IR-cRF-1" parent="G6hYTnezbfF7C8IR-cRF-0" />
+        <mxCell id="rE-JfkabKVOgnmR9AwR5-0" value="docker run myimage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="G6hYTnezbfF7C8IR-cRF-1">
+          <mxGeometry x="100" y="160" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rE-JfkabKVOgnmR9AwR5-1" value="docker-compose up" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="G6hYTnezbfF7C8IR-cRF-1">
+          <mxGeometry x="420" y="160" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rE-JfkabKVOgnmR9AwR5-2" value="docker run myimage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="G6hYTnezbfF7C8IR-cRF-1">
+          <mxGeometry x="110" y="350" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rE-JfkabKVOgnmR9AwR5-3" value="docker build ." style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="G6hYTnezbfF7C8IR-cRF-1">
+          <mxGeometry x="110" y="290" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rE-JfkabKVOgnmR9AwR5-4" value="docker-compose up --build" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="G6hYTnezbfF7C8IR-cRF-1">
+          <mxGeometry x="420" y="320" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rE-JfkabKVOgnmR9AwR5-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=15;direction=west;strokeWidth=2;" vertex="1" parent="G6hYTnezbfF7C8IR-cRF-1">
+          <mxGeometry x="350" y="160" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rE-JfkabKVOgnmR9AwR5-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=15;direction=west;strokeWidth=2;" vertex="1" parent="G6hYTnezbfF7C8IR-cRF-1">
+          <mxGeometry x="350" y="290" width="50" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
