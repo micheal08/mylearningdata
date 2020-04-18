@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-17T17:51:55.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="L1nXElY6sbPONTgdd_OK" version="12.9.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-18T05:57:20.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="9lhcWf4c9yd0NpSG0uM_" version="12.9.13" type="github" pages="3">
   <diagram id="_le0lB8lklZVR6vzBHbD" name="Docker_Flow">
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,6 +117,24 @@
         </mxCell>
         <mxCell id="f-gdMJfrRjp-eROcDMJl-15" value="unless-stopped" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="f-gdMJfrRjp-eROcDMJl-1">
           <mxGeometry x="80" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1MLg5AtcDns-KRU2oDZ-0" value="npm run start" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="f-gdMJfrRjp-eROcDMJl-1">
+          <mxGeometry x="80" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1MLg5AtcDns-KRU2oDZ-1" value="npm run test" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="f-gdMJfrRjp-eROcDMJl-1">
+          <mxGeometry x="80" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1MLg5AtcDns-KRU2oDZ-2" value="Starts up a development server. For development use only" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;align=left;" vertex="1" parent="f-gdMJfrRjp-eROcDMJl-1">
+          <mxGeometry x="240" y="600" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1MLg5AtcDns-KRU2oDZ-3" value="Run tests associated with the project" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;align=left;" vertex="1" parent="f-gdMJfrRjp-eROcDMJl-1">
+          <mxGeometry x="240" y="660" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1MLg5AtcDns-KRU2oDZ-4" value="Builds a production version of the project" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;align=left;" vertex="1" parent="f-gdMJfrRjp-eROcDMJl-1">
+          <mxGeometry x="240" y="720" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1MLg5AtcDns-KRU2oDZ-5" value="npm run build" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="f-gdMJfrRjp-eROcDMJl-1">
+          <mxGeometry x="80" y="720" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
