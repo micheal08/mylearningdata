@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-19T16:15:55.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="HEmLu8_U1aCdKzij0wr6" version="12.9.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-19T17:25:57.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="P1obV5IV4XOYWAg2jLbH" version="12.9.13" type="github" pages="3">
   <diagram id="cGKvdz5ofFc215l-4JxW" name="Kubernetes_Nodes">
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -308,7 +308,7 @@
             <mxPoint x="449" y="315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2u28Aa2or3SD5IDM6Y_A-7" value="minikube" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="2u28Aa2or3SD5IDM6Y_A-1">
+        <mxCell id="2u28Aa2or3SD5IDM6Y_A-7" value="minikube (Local only)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="2u28Aa2or3SD5IDM6Y_A-1">
           <mxGeometry x="219" y="280" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2u28Aa2or3SD5IDM6Y_A-12" value="Virtual Machine&lt;br style=&quot;font-size: 17px;&quot;&gt;(Node)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="2u28Aa2or3SD5IDM6Y_A-1">
