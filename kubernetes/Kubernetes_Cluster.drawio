@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-20T10:12:47.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="C2B8AB5bu1tFa0ZjFAsA" version="12.9.13" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-04-20T13:40:27.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="ttX7p3i-fFiByv6zlsaf" version="12.9.13" type="github" pages="7">
   <diagram id="cGKvdz5ofFc215l-4JxW" name="Kubernetes_Nodes">
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -456,6 +456,15 @@
         </mxCell>
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-12" value="Ingress" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1">
           <mxGeometry x="170" y="430" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9PdViOF-b_g5a6tp8kAH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=18;" edge="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="9PdViOF-b_g5a6tp8kAH-0" target="9PdViOF-b_g5a6tp8kAH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9PdViOF-b_g5a6tp8kAH-0" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1">
+          <mxGeometry x="120" y="530" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9PdViOF-b_g5a6tp8kAH-1" value="Maintains the set of identical pods, ensuring that they have the correct config and that the right number exists" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;align=center;" vertex="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1">
+          <mxGeometry x="410" y="530" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
