@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-24T14:33:08.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="_wJFFNNedoDzRzy8deaj" version="13.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-04-24T14:33:46.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="M__d8l3gyGACPHiu1WhQ" version="13.0.1" type="github" pages="6">
   <diagram id="_le0lB8lklZVR6vzBHbD" name="Docker_Flow">
     <mxGraphModel dx="1022" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -435,6 +435,9 @@
         </mxCell>
         <mxCell id="AcPbBbzVnBR5Dwe-SSTq-31" value="&amp;lt;new_image to use&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
           <mxGeometry x="830" y="550" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-32" value="Imperative Command" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="50" y="520" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
