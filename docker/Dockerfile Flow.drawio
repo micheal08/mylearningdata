@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-24T05:52:13.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="7H0p1GECH_gFPKUftzcC" version="13.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-04-24T14:09:45.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="Aa3byHJw8CV0lkrEH6GS" version="13.0.1" type="github" pages="6">
   <diagram id="_le0lB8lklZVR6vzBHbD" name="Docker_Flow">
-    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t4uxJWqt9roKmLD98vfO" name="Docker Compose command">
-    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="G6hYTnezbfF7C8IR-cRF-0" />
         <mxCell id="G6hYTnezbfF7C8IR-cRF-1" parent="G6hYTnezbfF7C8IR-cRF-0" />
@@ -72,7 +72,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pWLmvafTG9KJcAYdtlvK" name="Status Codes_Restart Policies">
-    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="f-gdMJfrRjp-eROcDMJl-0" />
         <mxCell id="f-gdMJfrRjp-eROcDMJl-1" parent="f-gdMJfrRjp-eROcDMJl-0" />
@@ -140,7 +140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NWS_Q111W1hOZ0N8CpaC" name="nginx">
-    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="QPiok7TWER2MFExcPkJ1-0" />
         <mxCell id="QPiok7TWER2MFExcPkJ1-1" parent="QPiok7TWER2MFExcPkJ1-0" />
@@ -229,7 +229,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jiHNhH6d09XnNob7jhKy" name="Application Architecture">
-    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="BfB1NoBsVGVZAk5RsGcT-0" />
         <mxCell id="BfB1NoBsVGVZAk5RsGcT-1" parent="BfB1NoBsVGVZAk5RsGcT-0" />
@@ -334,8 +334,53 @@
         <mxCell id="LuMssWw_IZXhVg6klbKr-10" value="MongoDB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="BfB1NoBsVGVZAk5RsGcT-1">
           <mxGeometry x="1050" y="440" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LuMssWw_IZXhVg6klbKr-14" value="Azure Event bus" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="BfB1NoBsVGVZAk5RsGcT-1">
-          <mxGeometry x="1220" y="230" width="110" height="260" as="geometry" />
+        <mxCell id="LuMssWw_IZXhVg6klbKr-14" value="Azure Service bus" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="BfB1NoBsVGVZAk5RsGcT-1">
+          <mxGeometry x="1220" y="230" width="90" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fDD8fBX6xNzx7d6WWpEY" name="Triggering Deployment Updates">
+    <mxGraphModel dx="782" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="rcBIgaMunQoBh6lBsxm8-0" />
+        <mxCell id="rcBIgaMunQoBh6lBsxm8-1" parent="rcBIgaMunQoBh6lBsxm8-0" />
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="rcBIgaMunQoBh6lBsxm8-1" source="AcPbBbzVnBR5Dwe-SSTq-0" target="AcPbBbzVnBR5Dwe-SSTq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-0" value="Manually delete pods to get the deployment to recreate them the latest version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="50" y="170" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-3" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Deleting pods manually seems silly&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="90" y="370" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="rcBIgaMunQoBh6lBsxm8-1" source="AcPbBbzVnBR5Dwe-SSTq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-1" value="Tag build images with a real version number and specify that version in the config file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="400" y="170" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="rcBIgaMunQoBh6lBsxm8-1" source="AcPbBbzVnBR5Dwe-SSTq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-2" value="&lt;b&gt;Use and imperative command to update the image version the deployment should use&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="710" y="170" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-9" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Adds an extra step in the production deployment process&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="440" y="370" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-10" value="Uses and imperative command" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="750" y="370" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-11" value="OPTIONS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="350" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-12" value="Uses and imperative command" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
+          <mxGeometry x="750" y="370" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
