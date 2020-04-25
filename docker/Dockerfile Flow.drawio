@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-24T14:33:46.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="M__d8l3gyGACPHiu1WhQ" version="13.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-04-25T02:03:43.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="KBxaLi0qUA_SXYsveCeY" version="13.0.1" type="github" pages="5">
   <diagram id="_le0lB8lklZVR6vzBHbD" name="Docker_Flow">
     <mxGraphModel dx="1022" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -336,108 +336,6 @@
         </mxCell>
         <mxCell id="LuMssWw_IZXhVg6klbKr-14" value="Azure Service bus" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="BfB1NoBsVGVZAk5RsGcT-1">
           <mxGeometry x="1220" y="230" width="90" height="260" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="fDD8fBX6xNzx7d6WWpEY" name="Triggering Deployment Updates">
-    <mxGraphModel dx="782" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="rcBIgaMunQoBh6lBsxm8-0" />
-        <mxCell id="rcBIgaMunQoBh6lBsxm8-1" parent="rcBIgaMunQoBh6lBsxm8-0" />
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="rcBIgaMunQoBh6lBsxm8-1" source="AcPbBbzVnBR5Dwe-SSTq-0" target="AcPbBbzVnBR5Dwe-SSTq-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-0" value="Manually delete pods to get the deployment to recreate them the latest version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="50" y="170" width="270" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-3" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Deleting pods manually seems silly&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="90" y="370" width="190" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="rcBIgaMunQoBh6lBsxm8-1" source="AcPbBbzVnBR5Dwe-SSTq-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="535" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-1" value="Tag build images with a real version number and specify that version in the config file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="400" y="170" width="270" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" edge="1" parent="rcBIgaMunQoBh6lBsxm8-1" source="AcPbBbzVnBR5Dwe-SSTq-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="845" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-2" value="&lt;b&gt;Use and imperative command to update the image version the deployment should use&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="710" y="170" width="270" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-9" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Adds an extra step in the production deployment process&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="440" y="370" width="190" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-10" value="Uses and imperative command" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="750" y="370" width="190" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-11" value="OPTIONS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="350" y="90" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-12" value="Uses and imperative command" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="750" y="370" width="190" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-13" value="kubectl" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="60" y="550" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-15" value="set" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="140" y="550" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-16" value="image&lt;span style=&quot;font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22kubectl%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D2%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2260%22%20y%3D%22550%22%20width%3D%2280%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="200" y="550" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-17" value="&amp;lt;object_type&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="280" y="550" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-18" value="/" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="410" y="550" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-19" value="&amp;lt;object_name&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="460" y="550" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-20" value="&amp;lt;container_name&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="620" y="550" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-21" value="kubectl" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="60" y="650" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-22" value="set" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="140" y="650" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-23" value="image&lt;span style=&quot;font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22kubectl%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D2%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2260%22%20y%3D%22550%22%20width%3D%2280%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="200" y="650" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-24" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="280" y="650" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-25" value="/" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="410" y="650" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-26" value="client_deployment" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="460" y="650" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-27" value="client" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="620" y="650" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-28" value="=" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="770" y="650" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-29" value="=" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="770" y="550" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-30" value="micheal/client:v2" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="830" y="650" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-31" value="&amp;lt;new_image to use&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="830" y="550" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AcPbBbzVnBR5Dwe-SSTq-32" value="Imperative Command" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="rcBIgaMunQoBh6lBsxm8-1">
-          <mxGeometry x="50" y="520" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
