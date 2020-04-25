@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-25T11:20:03.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="4Z-_rkJHHbZpYlXKt9ai" version="13.0.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-04-25T14:21:43.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="dOSoD1SmJgQJZdj4exni" version="13.0.1" type="github" pages="11">
   <diagram id="cGKvdz5ofFc215l-4JxW" name="Kubernetes_Nodes">
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -671,260 +671,142 @@
     
   </diagram>
   <diagram id="L5gNoSTMtP3YuRzJlJNJ" name="Objects">
-    
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      
       <root>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-0" />
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-1" parent="JK_MIju9y_eoY6hyoZQh-0" />
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-2" value="Statefulset" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="280" y="160" width="180" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-3" value="Replicacontroller" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="280" y="240" width="180" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-4" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="280" y="320" width="180" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-5" value="Service" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="280" y="400" width="180" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-6" value="&lt;b&gt;Example Object types&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="297.5" y="120" width="145" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=17;" parent="JK_MIju9y_eoY6hyoZQh-1" source="JK_MIju9y_eoY6hyoZQh-7" edge="1">
-          
           <mxGeometry relative="1" as="geometry">
-            
             <mxPoint x="230" y="310" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-7" value="Config" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=17;align=center;" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="240" y="160" width="20" height="300" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-11" value="Used to create &#39;objects&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=2" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="140" y="260" width="80" height="20" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="JK_MIju9y_eoY6hyoZQh-12" value="Objects serve different purposes - running a container, monitoring a container, setting up networking, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=3" parent="JK_MIju9y_eoY6hyoZQh-1" vertex="1">
-          
           <mxGeometry x="470" y="220" width="210" height="140" as="geometry" />
-          
         </mxCell>
-        
       </root>
-      
     </mxGraphModel>
-    
   </diagram>
   <diagram id="FOc6Zu1bQkjSN4Flpc1g" name="Pods_Services">
-    
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      
       <root>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-0" />
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-1" parent="WlmAIqZ3Bdv0Brt3aqxF-0" />
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=17;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="WlmAIqZ3Bdv0Brt3aqxF-2" target="WlmAIqZ3Bdv0Brt3aqxF-4" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-2" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="120" y="90" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-4" value="Runs one or more closely related container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;align=center;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="410" y="90" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=17;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="WlmAIqZ3Bdv0Brt3aqxF-3" target="WlmAIqZ3Bdv0Brt3aqxF-6" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-3" value="Service" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="120" y="200" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-6" value="Sets up networking in a Kubernetes Cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;align=center;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="410" y="200" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-8" value="Object Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="175" y="60" width="100" height="20" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="2_W4Ry2IdEE3w9olHPZ5-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=20;" edge="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="WlmAIqZ3Bdv0Brt3aqxF-9" target="2_W4Ry2IdEE3w9olHPZ5-0">
-          
+        <mxCell id="2_W4Ry2IdEE3w9olHPZ5-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=20;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="WlmAIqZ3Bdv0Brt3aqxF-9" target="2_W4Ry2IdEE3w9olHPZ5-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-9" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="170" y="280" width="160" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=18;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="WlmAIqZ3Bdv0Brt3aqxF-10" target="WlmAIqZ3Bdv0Brt3aqxF-13" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-10" value="NodePort" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="170" y="330" width="160" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-13" value="Exposes the container to the outside world (only good for Dev purposes)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=13;align=center;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="410" y="330" width="270" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-11" value="LoadBalancer" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="170" y="380" width="160" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-12" value="Ingress" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="170" y="430" width="160" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="9PdViOF-b_g5a6tp8kAH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=18;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="9PdViOF-b_g5a6tp8kAH-0" target="9PdViOF-b_g5a6tp8kAH-1" edge="1">
-          
           <mxGeometry relative="1" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="9PdViOF-b_g5a6tp8kAH-0" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="120" y="530" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="9PdViOF-b_g5a6tp8kAH-1" value="Maintains the set of identical pods, ensuring that they have the correct config and that the right number exists" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;align=center;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="410" y="530" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-0" value="&amp;nbsp;Pod Object" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="710" y="170" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-1" value="Deployment Object" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="1030" y="170" width="210" height="80" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-2" value="Runs a single set of containers" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="710" y="250" width="210" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-6" value="Good for one-off dev purposes" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="710" y="300" width="210" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-7" value="Rarely used directly in Production" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="710" y="350" width="210" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-8" value="Runs a set of identical pods (one or more)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="1030" y="250" width="210" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-9" value="Monitors the state of each pod, updating as necessary" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="1030" y="300" width="210" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-10" value="Good for Dev" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="1030" y="350" width="210" height="50" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-11" value="Good for Production" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
-          
           <mxGeometry x="1030" y="400" width="210" height="50" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="2_W4Ry2IdEE3w9olHPZ5-0" value="Exposes a set of pods to other objects in the cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=13;align=center;" vertex="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1">
-          
+        <mxCell id="2_W4Ry2IdEE3w9olHPZ5-0" value="Exposes a set of pods to other objects in the cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=13;align=center;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
           <mxGeometry x="410" y="280" width="270" height="50" as="geometry" />
-          
         </mxCell>
-        
+        <mxCell id="8B04DAsKAVqsuBv3OptF-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;" edge="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="8B04DAsKAVqsuBv3OptF-0" target="8B04DAsKAVqsuBv3OptF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8B04DAsKAVqsuBv3OptF-0" value="Secrets" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1">
+          <mxGeometry x="120" y="650" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8B04DAsKAVqsuBv3OptF-1" value="Securely stores the piece of information in the cluster, such as a database password" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;align=center;" vertex="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1">
+          <mxGeometry x="410" y="650" width="210" height="80" as="geometry" />
+        </mxCell>
       </root>
-      
     </mxGraphModel>
-    
   </diagram>
   <diagram id="Edir9LlHok9w4wmorkzk" name="Pod Service Connection">
     
