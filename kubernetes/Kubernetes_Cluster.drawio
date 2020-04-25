@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-25T02:03:20.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="gIiy7oP0sN94Fjg9SKCB" version="13.0.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2020-04-25T03:08:46.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="pS2DfzerVUqVYoQ8Yzk2" version="13.0.1" type="github" pages="10">
   <diagram id="cGKvdz5ofFc215l-4JxW" name="Kubernetes_Nodes">
     <mxGraphModel dx="1022" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -374,7 +374,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="L5gNoSTMtP3YuRzJlJNJ" name="Objects">
-    <mxGraphModel dx="1022" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="JK_MIju9y_eoY6hyoZQh-0" />
         <mxCell id="JK_MIju9y_eoY6hyoZQh-1" parent="JK_MIju9y_eoY6hyoZQh-0" />
@@ -414,7 +414,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FOc6Zu1bQkjSN4Flpc1g" name="Pods_Services">
-    <mxGraphModel dx="1022" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-0" />
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-1" parent="WlmAIqZ3Bdv0Brt3aqxF-0" />
@@ -438,6 +438,9 @@
         </mxCell>
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-8" value="Object Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
           <mxGeometry x="175" y="60" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2_W4Ry2IdEE3w9olHPZ5-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=20;" edge="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1" source="WlmAIqZ3Bdv0Brt3aqxF-9" target="2_W4Ry2IdEE3w9olHPZ5-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WlmAIqZ3Bdv0Brt3aqxF-9" value="ClusterIP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
           <mxGeometry x="170" y="280" width="160" height="50" as="geometry" />
@@ -492,6 +495,9 @@
         </mxCell>
         <mxCell id="gCKTJgGvcEZRmYGUnkpR-11" value="Good for Production" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontSize=16;align=center;fontStyle=0" parent="WlmAIqZ3Bdv0Brt3aqxF-1" vertex="1">
           <mxGeometry x="1030" y="400" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2_W4Ry2IdEE3w9olHPZ5-0" value="Exposes a set of pods to other objects in the cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=13;align=center;" vertex="1" parent="WlmAIqZ3Bdv0Brt3aqxF-1">
+          <mxGeometry x="410" y="280" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -791,7 +797,7 @@
       <root>
         <mxCell id="UyONMxKtTP0r-lo7T4oh-0" />
         <mxCell id="UyONMxKtTP0r-lo7T4oh-1" parent="UyONMxKtTP0r-lo7T4oh-0" />
-        <mxCell id="9c1AgT6RAfci1TarrG7t-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UyONMxKtTP0r-lo7T4oh-1">
+        <mxCell id="9c1AgT6RAfci1TarrG7t-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="UyONMxKtTP0r-lo7T4oh-1">
           <mxGeometry x="150" y="100" width="760" height="510" as="geometry" />
         </mxCell>
         <mxCell id="9c1AgT6RAfci1TarrG7t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="UyONMxKtTP0r-lo7T4oh-1" source="9c1AgT6RAfci1TarrG7t-1" target="9c1AgT6RAfci1TarrG7t-12">
@@ -823,6 +829,9 @@
         </mxCell>
         <mxCell id="9c1AgT6RAfci1TarrG7t-21" value="Application Architecture in Kubernetes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="UyONMxKtTP0r-lo7T4oh-1">
           <mxGeometry x="383.5" y="40" width="293" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9c1AgT6RAfci1TarrG7t-22" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="UyONMxKtTP0r-lo7T4oh-1">
+          <mxGeometry x="465" y="110" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
