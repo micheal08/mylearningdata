@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "bc156a5b-0014-4834-abed-47fd67b8e29d"
+        },
+        "name": {
+            "value": "escalator-functions-msr"
+        },
+        "location": {
+            "value": "Central India"
+        },
+        "hostingPlanName": {
+            "value": "ASP-MichealDev-a372"
+        },
+        "serverFarmResourceGroup": {
+            "value": "MichealDev"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "storageAccountName": {
+            "value": "storageaccountmiche9f8e"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        }
+    }
+}
