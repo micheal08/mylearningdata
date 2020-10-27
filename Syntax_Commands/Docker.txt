@@ -1,0 +1,73 @@
+Docker Commands
+---------------
+
+docker version
+
+docker images
+docker image list
+docker image ls
+docker image rm <image_name:tag>
+
+docker ps -a
+
+docker system prune
+
+
+docker login <registry_name>.azurecr.io -> Login Azure Container Registry
+
+docker login -username michealdocker8 --password-stdin <password> -> From Docker hub
+
+docker push <image_name>
+docker pull <link>
+
+docker build [--tag,-t] "<image_name:tag>" [-f] Dockerfile.dev .
+
+docker run --name <container_name> -d -p 8080:80 <image_name:tag> 
+
+docker run --rm -v c:/Users:/data alpine ls /data
+
+docker container stop <container_name>
+docker stop <container_id>
+docker kill <container_id>
+
+docker container rm <container_name>
+
+docker logs <container_id>
+
+docker exec -it <container_id> <second-command> -> second running command for container.
+docker exec -it <container_id> sh -> getting command prompt in a container
+
+docker tag <image_name:tag> <registry_name>.azurecr.io/<image_name:tag> -> Alias name to be created in Docker registry to push.
+
+docker push  <imagealias_name> -> Push image from local computer to a docker registry
+
+
+docker-compose up
+docker-compose up --build
+docker-compose up -d
+docker-compose down
+docker-compose stop
+
+docker-compose ps
+
+docker network ls
+
+docker network inspect bridge
+
+docker network create --driver bridge my_bridge_network
+
+docker-machine ls
+
+docker-machin create
+
+docker swarm init --advertise-addr <public ip address>  -> Initialize a swarm
+
+docker swarm join
+
+docker swarm leave
+
+docker stack deploy --compose-file prod.yml <stack_name>
+
+docker stack services <stack_name>
+
+

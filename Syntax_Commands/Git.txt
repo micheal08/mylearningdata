@@ -1,0 +1,49 @@
+GIT Commands
+------------
+
+git init
+
+git remote add origin <link>
+
+git add .
+
+git remote -v
+
+git commit -m "comment"
+
+git push origin master
+
+git pull origin master
+
+git status
+
+git log
+
+git revert -n <hash>
+git revert HEAD
+
+git reset <hash> --hard
+git reset HEAD~1 --hard
+
+git branch <branch name>
+git branch -d <branch name>
+
+git checkout <branch name>
+
+git checkout -b <new branch name>
+
+git merge
+
+git diff
+
+git clone
+
+git stash pop
+
+git rebash -i HEAD~3
+
+git squash
+
+git rm -r . --cached
+
+git rev-parse HEAD  --> to get the latest commit SHA

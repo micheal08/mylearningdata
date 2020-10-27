@@ -1,0 +1,65 @@
+
+az login -u <user_name> -p <password>
+
+Upload your application to Azure
+-----------------------------------
+To deploy your application, you need to get an image of your app into your Container Registry. 
+You could use Docker to build an image and push it to the registry, 
+but the Azure Container Registry can do it for you in one step. 
+Execute the following command from the directory containing your solution (*.sln) file.
+
+
+az acr build --registry <registry_name> --image <image_name>:<tag> --file .\WiscoIpsum\Dockerfile .
+
+
+Azure Container instance  & Registry 
+------------------------------------
+az acr create --name <registry_name> --resource-group <resource_group_name> --sku standard --admin-enabled true   ->Create Azure Container Registry
+
+az acr build --registry <registry_name> --image <image_name:tag> .
+
+az acr update -n <registry_name> --admin-enabled true
+
+az acr task create 
+	--registry <registry_name> 
+	--name <task_name> 
+	--image <image_name> 
+	--context https://github.com/MicrosoftDocs/mslearn-deploy-run-container-app-service.git 
+	--branch master 
+	--file Dockerfile 
+	--git-access-token <access_token>
+
+az acr repository list --name <registry_name> --output table
+
+az acr repository show --repository <image_name> --name <registry_name>
+
+az acr credential show --name <registry_name>
+
+az acr replication create --registry <registry_name> --location japaneast
+
+az container create \
+	--resource-group <resource_group_name> \
+	--name <container_instance_name> \
+	--image <registry_name>.azurecr.io/myapp:latest \
+	--registry-login-server <registry_name>.azurecr.io \
+	--dns-name-label <dns_name> \
+	--registry-username <registry_username> \
+	--registry-password <registry_password>  
+	--secure-environment-variables \
+    COSMOS_DB_ENDPOINT=$COSMOS_DB_ENDPOINT \
+    COSMOS_DB_MASTERKEY=$COSMOS_DB_MASTERKEY -> Create Azure Container Instance
+
+
+az container show \
+	--resource-group <resource_group_name> \
+	--name <container_instance_name> \
+	--query ipAddress.fqdn \
+	--output table -> Shows URL to access Web App
+	
+az container logs \
+  --resource-group <resource_group_name> \
+  --name <container_instance_name>
+  
+ az container attach
+ 
+ az container exec

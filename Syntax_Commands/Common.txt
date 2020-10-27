@@ -1,0 +1,4 @@
+NugetPackage Uninstall
+ Uninstall-Package <packagename> -RemoveDependencies 
+ 
+ Microsoft.CodeAnalysis.FxCopAnalyzers

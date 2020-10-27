@@ -1,0 +1,2 @@
+npm install -g azure-functions-core-tools   --> to install or update azure function core tools
+npm uninstall -g azure-functions-core-tools  --> to uninstall azure function core tools
