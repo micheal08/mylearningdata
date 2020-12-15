@@ -1,2 +1,72 @@
 npm install -g azure-functions-core-tools   --> to install or update azure function core tools
 npm uninstall -g azure-functions-core-tools  --> to uninstall azure function core tools
+
+az login
+
+az group create --location centralus --name <resource-groupname>
+az group delete --name <resource-groupname> --no-wait --yes
+
+az appservice plan create --name <appservice_name> --resource-group <resource-groupname> --sku b1
+az webapp create --name <webapp-name> --resource-group <resource-groupname> --plan <appservice-name>
+az webapp list --resource-group <Resourcegroup_name>
+az webapp deployment source config-zip --resource-group <Resourcegroup_name> --src api.zip --name <name-of-your-api-app>
+az webapp config set
+az webapp config appsettings set --resource-group <Resourcegroup_name> --name 
+az webapp show
+az webapp deployment user set --user-name <username> --password <password>
+
+az storage account create --name <stoage-account-name> --resource-group <resource-groupname> --location <location-name> --sku Standard_LRS
+az storage container create --account-name <stoage-account-name> --name <container-name>
+az storage blob upload --account-name <stoage-account-name> --container-name <container-name> --name <blob-file-name> --file sample.txt
+az storage blob download --account-name <stoage-account-name> --container-name <container-name> --name <blob-file-name> --file sample.txt
+az storage container set-permission --account-name <stoage-account-name> --name <container-name> --public-access blob
+az stoage blob list --account-name <stoage-account-name> --container-name <container-name> --output table
+
+azcopy login --tenant-id=<tenant-id>
+azcopy make "https://<storageaccount-url>/container-name"
+azcopy copy "blob-name" "<blob-url>"
+azcopy copy "<blob-url>" "blob-name"
+
+
+az provider list --query "[].namespace"
+az provider register --namespace Microsoft.CDN
+
+Azure function
+-----------------------------------------
+func init --worker-runtime dotnet --force
+func new --template "HTTP trigger" --name <"trigger-name">
+func azure functionapp publish <function-app-name>
+func start --build
+
+dotnet
+--------------------------------------
+dotnet new console --name <app-name> --output .
+dotnet new webapi --output . --name <webapi_name>
+dotnet add package <package-name> --version <version-number>
+
+-Azure.Storage.Blobs
+-Azure.Storage.Queues
+-Microsoft.Identity.Client
+-Microsoft.Graph
+-Microsoft.Graph.Auth
+-Microsoft.Azure.EventGrid
+-Microsoft.ApplicationInsights
+-Microsoft.ApplicationInsights.AspNetCore
+-Microsoft.ApplicationInsights.PerfCounterCollector
+
+dotnet build
+dotnet run
+
+
+powershell 
+----------------------------------------
+$location="Central US"
+
+$resourcegrp="newgrp"
+
+$webappname="demoapp4040"
+
+New-AzResourceGroup -Name $resourcegrp -Location $location
+New-AzAppServicePlan -Name $webappname -Location $location -ResourceGroupName $resourcegrp -Tier Standard
+New-AzWebApp -Name $webappname -Location $location -ResourceGroupName $resourcegrp -AppServicePlan $webappname
+New-AzWebAppSlot -Name $webappname -ResourceGroupName $resourcegrp -Slot "staging"
