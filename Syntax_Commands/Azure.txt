@@ -24,8 +24,18 @@ az stoage blob list --account-name <stoage-account-name> --container-name <conta
 
 azcopy login --tenant-id=<tenant-id>
 azcopy make "https://<storageaccount-url>/container-name"
-azcopy copy "blob-name" "<blob-url>"
-azcopy copy "<blob-url>" "blob-name"
+azcopy copy "blob-name" "<blob-url>"    -> copy local to blob
+azcopy copy "<blob-url>" "blob-name"    -> copy blob to 
+
+az cosmosdb create -n newaccount6000 -g demogrp1 --default-consistency-level Session --locations regionName='West US 2' failoverPriority=0 isZoneRedundant=False
+az cosmosdb create -n newaccount5000 -g demogrp1 --default-consistency-level Session --locations regionName='West US 2' failoverPriority=0 isZoneRedundant=False --locations regionName='East US 2' failoverPriority=1 isZoneRedundant=False
+az cosmosdb create -n newaccount6000 -g demogrp1 --default-consistency-level Session --locations regionName='West US 2' failoverPriority=0 isZoneRedundant=False --capabilities EnableTable
+
+az ad sp create-for-rbac -n secretapp --skip-assignment
+az keyvault set-policy --name demovault9090 --spn "<serviceprincipal-appid>" --secret-permissions backup delete get list set
+az keyvault set-policy --name demovault9090 --spn "<serviceprincipal-appid>" --key-permissions backup delete get list create encrypt decrypt update
+
+az vm encryption enable -g <resource-groupname> --name <vm-name> --disk-encryption-keyvault <keyvault-name>
 
 
 az provider list --query "[].namespace"
