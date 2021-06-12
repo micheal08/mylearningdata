@@ -11,9 +11,9 @@ git remote -v
 
 git commit -m "comment"
 
-git push origin master
+git push origin <branch_name>
 
-git pull origin master
+git pull origin <branch_name>
 
 git status
 
@@ -25,12 +25,12 @@ git revert HEAD
 git reset <hash> --hard
 git reset HEAD~1 --hard
 
-git branch <branch name>
-git branch -d <branch name>
+git branch <branch_name>
+git branch -d <branch_name>
 
-git checkout <branch name>
+git checkout <branch_name>
 
-git checkout -b <new branch name>
+git checkout -b <new branch_name>
 
 git merge
 

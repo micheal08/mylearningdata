@@ -14,6 +14,9 @@ az webapp config set
 az webapp config appsettings set --resource-group <Resourcegroup_name> --name 
 az webapp show
 az webapp deployment user set --user-name <username> --password <password>
+az webapp identity assign --name myApp --resource-group myResourceGroup
+
+az webapp update --set clientCertEnabled=true --name <app-name> --resource-group <group-name>
 
 az storage account create --name <stoage-account-name> --resource-group <resource-groupname> --location <location-name> --sku Standard_LRS
 az storage container create --account-name <stoage-account-name> --name <container-name>
@@ -37,9 +40,48 @@ az keyvault set-policy --name demovault9090 --spn "<serviceprincipal-appid>" --k
 
 az vm encryption enable -g <resource-groupname> --name <vm-name> --disk-encryption-keyvault <keyvault-name>
 
+command creates an alert when the average CPU percentage for a virtual machine goes beyond 80% for a period of 5 minutes.
+az monitor metrics alert create -n demoalert -g demogrp1 --scopes /subscriptions/20c6eec9-2d80-4700-b0f6-4fde579a8783/resourceGroups/demogrp1/providers/Microsoft.Compute/virtualMachines/linuxvm --condition "avg Percentage CPU > 80" --window-size 5m --evaluation-frequency 1m --description "High CPU"
+
+Azure Service Bus - Azure CLI
+You can use the following commands to work with the Azure Service Bus service
+
+// You can set the following variables for your script
+
+$namespace="appnamespace4000"
+
+$resourcegrp="demogrp1"
+
+$location="Central US"
+
+$queuename="appqueue"
+
+$topicname="apptopic"
+
+$subscriptionName="SubscriptionA"
+
+// You can use the following command to create a service bus namespace
+
+az servicebus namespace create --name $namespace --resource-group $resourcegrp --location $location --sku Standard
+
+// You can use the following command to create a service bus queue
+
+az servicebus queue create --resource-group $resourcegrp --namespace-name $namespace --name $queuename --max-size 1024
+
+// You can use the following command to create a service bus topic
+
+az servicebus topic create --resource-group $resourcegrp --namespace-name $namespace --name $topicname --max-size 1024
+
+// You can use the following command to create a service bus subscription
+
+az servicebus topic subscription create --resource-group $resourcegrp --namespace-name $namespace --topic-name $topicname --name $subscriptionName
+
+az eventgrid event-subscription create --name <subscription-name> --source-resource-id <full-resource-id> --endpoint-type servicebusqueue --endpoint <entire-resource-id>
 
 az provider list --query "[].namespace"
 az provider register --namespace Microsoft.CDN
+
+az acr create --name <registry-name> --resource-group AppSvc-DockerTutorial-rg --sku Basic --admin-enabled true
 
 Azure function
 -----------------------------------------
