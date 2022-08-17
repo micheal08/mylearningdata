@@ -1,0 +1,47 @@
+Data Structure:
+---------------
+	Data structure is a storage that is used to store and organize data. 
+	It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
+	
+	Linear Data Structure - Data elements are arranged sequentially
+
+		Static (fixed memory size) - Array
+		Dynamic (memory size is not fixed) - Queue, Stack, Linked List
+		
+	Non-Linear Data Structure - Data elements are not placed sequentially
+		Tree
+		Graph
+
+
+Traversing - Visit the element stored in it.
+Searhing
+Insertion
+Deletion
+
+
+Algorithms:
+-----------
+Searching -
+
+Dynamic Programming - 
+
+Sorting - 
+TC - O(N log N) 
+	Bubble Sort -- Compare two elements in array and swap the largest item to left.
+		TC - Best - O(n), Worst - O(n^2)  SC - O(1)
+	
+	Insertion Sort -- 
+		TC - Best - O(n), Worst - O(n^2)  SC - O(1)
+	
+	Selection Sort -- Find smallest item in the list and swap
+		TC - Best - O(n^2), Worst - O(n^2) SC - O(1)
+	
+	Merge Sort -- use technique (Divide and conquer)
+		TC - Best - O(n log N), Worst - O(n log N)  SC - O(n)
+		
+		
+	Quick Sort -- use technique (Divide and conquer)
+		TC - Best - O(n log N), Worst - O(n^2)  SC - O(log N)
+	
+
+Recursion - 
